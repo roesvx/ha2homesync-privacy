@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HA2HomeSync · Política de privacidad / Privacy Policy</title>
+<meta name="color-scheme" content="light dark">
+<style>
+  :root { --bg:#f5f5f7; --card:#fff; --text:#1d1d1f; --muted:#6e6e73; --ha:#1a8cde; --home:#fa9921; --line:#e5e5ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --text:#f5f5f7; --muted:#98989d; --line:#2c2c2e; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom: 24px; }
+  .logo { display:inline-flex; align-items:center; gap:8px; font-weight:800; }
+  .ha { background:var(--ha); color:#fff; border-radius:7px; padding:2px 8px; font-size:14px; letter-spacing:.5px; }
+  .home { color:var(--home); }
+  h1 { font-size: 28px; margin: 0; }
+  nav a { margin-right: 14px; color: var(--ha); text-decoration: none; font-weight: 600; }
+  section { background:var(--card); border-radius:16px; padding: 22px 24px; margin: 18px 0; border: 1px solid var(--line); }
+  h2 { font-size: 22px; margin: 0 0 6px; }
+  .date { color: var(--muted); font-size: 14px; margin-bottom: 14px; }
+  ul { padding-left: 20px; } li { margin: 8px 0; }
+  footer { color: var(--muted); font-size: 14px; text-align:center; margin-top: 32px; }
+  code { background: var(--bg); padding: 1px 6px; border-radius: 6px; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="logo"><span class="ha">HA</span><span aria-hidden="true">→</span><span class="home">⌂</span> HA2HomeSync</span>
+  </header>
+  <nav><a href="#es">Español</a><a href="#en">English</a><a href="#soporte">Soporte / Support</a></nav>
+
+  <section id="es">
+    <h2>Política de privacidad</h2>
+    <div class="date">Última actualización: 8 de septiembre de 2026</div>
+    <p>HA2HomeSync no recoge, almacena ni transmite datos personales a su desarrollador ni a terceros.</p>
+    <ul>
+      <li><strong>Home Assistant.</strong> La dirección y el token de acceso se guardan cifrados en el Keychain de tu dispositivo y solo se usan para conectar con tu propio servidor de Home Assistant, en tu red o en la dirección que tú indiques. Si inicias sesión desde la app, la sesión temporal se revoca en cuanto se crea el token de larga duración.</li>
+      <li><strong>Apple Home.</strong> La app lee y modifica cuartos y accesorios de tu casa de HomeKit únicamente para hacer lo que le pides (sincronizar, mover, limpiar, restaurar). Esos datos no salen del dispositivo.</li>
+      <li><strong>Copias de seguridad y registro de actividad.</strong> Se guardan solo en tu dispositivo. Si compartes una copia, la envías tú, a quien tú quieras.</li>
+      <li><strong>Sin analítica, sin cuentas, sin publicidad.</strong> La app no incluye ningún SDK de terceros ni se conecta a servidores del desarrollador.</li>
+      <li><strong>Compras.</strong> La compra única se gestiona por Apple (StoreKit). El desarrollador no recibe datos de pago.</li>
+      <li><strong>Red local.</strong> La app busca Home Assistant en tu red con Bonjour; ese permiso solo se usa para eso.</li>
+    </ul>
+    <p>Si esta política cambia, la fecha de arriba se actualizará y la app nueva la reflejará.</p>
+  </section>
+
+  <section id="en">
+    <h2>Privacy Policy</h2>
+    <div class="date">Last updated: September 8, 2026</div>
+    <p>HA2HomeSync does not collect, store or transmit personal data to its developer or to third parties.</p>
+    <ul>
+      <li><strong>Home Assistant.</strong> The address and access token are stored encrypted in your device's Keychain and are only used to connect to your own Home Assistant server, on your network or at the address you provide. If you sign in from the app, the temporary session is revoked as soon as the long-lived token is created.</li>
+      <li><strong>Apple Home.</strong> The app reads and changes rooms and accessories of your HomeKit home only to do what you ask (sync, move, clean up, restore). That data never leaves the device.</li>
+      <li><strong>Backups and activity log.</strong> Stored only on your device. If you share a backup, you send it, to whoever you choose.</li>
+      <li><strong>No analytics, no accounts, no ads.</strong> The app includes no third-party SDKs and never contacts the developer's servers.</li>
+      <li><strong>Purchases.</strong> The one-time purchase is handled by Apple (StoreKit). The developer receives no payment data.</li>
+      <li><strong>Local network.</strong> The app discovers Home Assistant on your network with Bonjour; that permission is used for nothing else.</li>
+    </ul>
+    <p>If this policy changes, the date above will be updated and the new app version will reflect it.</p>
+  </section>
+
+  <section id="soporte">
+    <h2>Soporte / Support</h2>
+    <p>Escríbenos / Write to us: <a href="mailto:roomsync@escobar.sv">roomsync@escobar.sv</a></p>
+    <p>Requisitos / Requirements: Home Assistant con la integración HomeKit Bridge y un iPhone con iOS 17 o posterior en la misma red. / Home Assistant with the HomeKit Bridge integration and an iPhone running iOS 17 or later on the same network.</p>
+  </section>
+
+  <footer>© 2026 HA2HomeSync. Home Assistant y HomeKit son marcas de sus respectivos propietarios. / Home Assistant and HomeKit are trademarks of their respective owners.</footer>
+</main>
+</body>
+</html>
